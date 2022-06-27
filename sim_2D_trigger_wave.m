@@ -181,7 +181,7 @@ end
 %% Reshape the ROS level into a matrix form and get the coordinate of the cells (r,phi)
 y = reshape(y,parameters.nCell,[]);
 nr = size(y,1)-1;
-delta_r = parameters.h*7.75;
+delta_r = parameters.h;
 r = ((1:nr)-1).*delta_r;
 nphi = size(y,2)-2;
 delta_phi = 2*pi/nphi;
