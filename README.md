@@ -15,8 +15,4 @@ Ferroptotic trigger wave analysis (wave speed measurement, entropy quantificatio
 
    Perform vector field analysis to quantify the entropy of the death pattern over time.
 
-The provided code runs in MATLAB_R2024a. 
-The code runs on a PC
-OS: Windows 10
-Processor: AMD Ryzen 9 5900X
-Memory: 32 GB 1800 MHz DDR4
+The provided code runs in MATLAB_R2024a (Windows 10, AMD Ryzen 9 5900X, 32 GB 1800 MHz DDR4).
