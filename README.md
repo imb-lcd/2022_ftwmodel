@@ -9,6 +9,7 @@ Ferroptotic trigger wave analysis (wave speed measurement, entropy quantificatio
    Estimate a wave speed based on the kymograph generated from time-lapse images.
    An example image (~2GB) can downloaded from:
    https://figshare.com/ndownloader/files/46021953
+   and put the file into the img folder.
    
 5. Vector field analysis
 
