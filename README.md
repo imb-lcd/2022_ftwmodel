@@ -1,18 +1,26 @@
-Ferroptotic trigger wave analysis (wave speed measurement, entropy quantification, and wave simulation) sample code for the paper:
+# Overview
+The example code of the ferroptotic trigger wave analysis (i.e., wave speed measurement, entropy quantification, and wave simulation)
 
-1. Mathematical simulation
+## Folder description
+1. `mathematical_simulation`
 
-   Simulate a 2D wave given different levels of Erastin.
+   This folder contains a script (`sim_2D_trigger_wave.m`) to simulate a 2D wave given different levels of Erastin and a colormap for plotting simulation results (`custom_parula.mat`).
+   The instructions for the simulation and details of model parameters are given in the script.
    
-3. Wave speed measurement
+3. `wave_speed_measurement`
 
-   Estimate a wave speed based on the kymograph generated from time-lapse images.
-   An example image (~2GB) can downloaded from:
-   https://figshare.com/ndownloader/files/46021953
-   and put the file into the img folder.
+   This folder has three subfolders (`script`, `img`, and `data`).
+   The `img` folder is to keep the image for wave speed measurement.
+   An example image (~2GB) is provided [here](https://figshare.com/ndownloader/files/46021953 "figshare") and kept in the `img` folder for the following analysis.
+   The `data` folder contains the information on the initiation of a wave (`setting_s19.mat`) in the example image and the resulting kymograph (`kymograph_s19.mat`).
+   The `script` folder contains the scripts for estimating speed from the kymograph (`speed_estimation.m`) and plotting the kymograph (`make_kymograph.m`).
    
-5. Vector field analysis
+5. `vector_field_analysis`
 
-   Perform vector field analysis to quantify the entropy of the death pattern over time.
+   This folder has two subfolders (`script` and `data`).
+   The `data` folder contains the information on the boundary and initiation of a wave (`mask_s11.mat` and `center_s11.mat`).
+   The `script` folder contains the scripts for plotting vector fields and quantifying entropy (`vector_field.m` and `entropy.m`) of the death pattern over time.
 
 The provided code runs in MATLAB_R2024a (Windows 10, AMD Ryzen 9 5900X, 32 GB 1800 MHz DDR4).
+
+# Setting up the environment
