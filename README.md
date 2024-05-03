@@ -1,5 +1,5 @@
 # Overview
-The example code of the ferroptotic trigger wave analysis (i.e., wave speed measurement, entropy quantification, and wave simulation)
+The example code of the ferroptotic trigger wave analysis (i.e., wave speed measurement, vector field analysis, and wave simulation)
 
 ## Folder description
 1. `mathematical_simulation`
@@ -24,3 +24,7 @@ The example code of the ferroptotic trigger wave analysis (i.e., wave speed meas
 The provided code runs in MATLAB_R2024a (Windows 10, AMD Ryzen 9 5900X, 32 GB 1800 MHz DDR4).
 
 # Setting up the environment
+# Demo
+## Wave speed measurement
+## Vector field and entropy quantification
+## Wave simulation
