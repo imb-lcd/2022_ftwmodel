@@ -21,7 +21,11 @@ The example code of the ferroptotic trigger wave analysis (i.e., wave speed meas
    The `data` folder contains the information on the boundary and initiation of a wave (`mask_s11.mat` and `center_s11.mat`).
    The `script` folder contains the scripts for plotting vector fields and quantifying entropy (`vector_field.m` and `entropy.m`) of the death pattern over time.
 
-The provided code runs in MATLAB_R2024a (Windows 10, AMD Ryzen 9 5900X, 32 GB 1800 MHz DDR4).
+The provided code runs in MATLAB_R2024a.
+
+OS: Windows 10
+CPU: AMD Ryzen 9 5900X
+RAM: 32 GB 1800 MHz DDR4
 
 # Setting up the environment
 # Demo
