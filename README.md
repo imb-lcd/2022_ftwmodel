@@ -19,3 +19,9 @@ RAM: 32 GB 1800 MHz DDR4
 | 1g  | `Figure1\lipid_dye\script\outline_cy5.m` | plot the outlines of ferroptotic trigger wave (cell death) |
 | 1h  | `Figure1\lipid_dye\script\get_slices.m` | plot ferroptotic trigger wave with an ROI (cell death and lipid) |
 | 1i  | `Figure1\lipid_dye\script\make_kymograph.m`  | plot the kymograph of ferroptotic trigger wave |
+
+### Figure2
+| Figure  | Scripts | Description |
+| :------------- | :------------- | :------------- |
+| 2a | `Figure2\script\plot_profile.m` | plot the profile of ROS across gaps over time |
+| 2b | `Figure2\script\passing_prob.m` | plot a logistic curve fitted to the gap size that can continue a wave |
