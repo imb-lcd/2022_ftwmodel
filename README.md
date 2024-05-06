@@ -23,5 +23,7 @@ RAM: 32 GB 1800 MHz DDR4
 ### Figure2
 | Figure  | Scripts | Description |
 | :------------- | :------------- | :------------- |
-| 2a | `Figure2\script\plot_profile.m` | plot the profile of ROS across gaps over time |
+| 2a | `Figure2\script\export.ijm` `Figure2\script\plot_profile.m` | the cropped images over time and plot the profile of ROS across gaps over time |
 | 2b | `Figure2\script\passing_prob.m` | plot a logistic curve fitted to the gap size that can continue a wave |
+
+### Figure3
