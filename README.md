@@ -10,4 +10,7 @@ RAM: 32 GB 1800 MHz DDR4
 ## Folder description
 | Figure  | Scripts | Description |
 | :------------- | :------------- | :------------- |
-| 1A  | XX  | XX |
+| 1a and 1b  | `Figure1\long_distance\script\export.ijm` `Figure1\long_distance\script\outline.m`  | plot the outlines of ferroptotic trigger wave and export microscopic images |
+| 1c  | `Figure1\long_distance\script\get_slices.m`  | plot ferroptotic trigger wave with an ROI |
+| 1d  | `Figure1\long_distance\script\make_kymograph.m`  | plot the kymograph of ferroptotic trigger wave |
+| 1e  | `Figure1\long_distance\script\diffusion_plot.m`  | plot the data of ferroptotic trigger wave with theoretical diffusion |
