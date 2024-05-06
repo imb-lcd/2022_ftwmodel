@@ -39,6 +39,11 @@ RAM: 32 GB 1800 MHz DDR4
 ### Figure4
 | Figure  | Scripts | Description |
 | :------------- | :------------- | :------------- |
+| 4a | `Figure4\priming\script\bifurcation_diagram.m`| Bifurcation diagram |
+| 4b | `Figure4\priming\script\export_ros_steadystate.ijm`| export microscopic images (ROS) after photoinduction |
+| 4c | `Figure4\priming\script\quantify_ros_staedystate.m`| plot ROS steady state before and after photoinduction |
+| 4d | `Figure4\priming\script\sim_trigger_waves.m` `Figure4\priming\script\export.ijm` `Figure4\priming\script\outline.m` | plot simulated trigger waves, export microscopic images and plot the outlines |
+| 4e to 4g | `Figure4\priming\script\summarize_speed.m` `Figure4\priming\script\measure_wavefront_width_amp.m` | plot wave speed, wavefront width, and ROS amplitude under different erastin levels|
 
 ### Figure5
 | Figure  | Scripts | Description |
